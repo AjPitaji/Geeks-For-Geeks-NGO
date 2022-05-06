@@ -1,54 +1,47 @@
 h1 {
-font-family: 'Montserrat', sans-serif;
-font-size: 4rem;
-line-height: ;
-font-weight: 900;
-color: rgb(37, 29, 58);
-margin-top: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 4rem;
+  line-height: ;
+  font-weight: 900;
+  color: rgb(37, 29, 58);
+  margin-top: 50px;
 }
-h1 span
-{
+h1 span {
   font-size: 2rem;
 }
-body
-{
+body {
   /* font-family: "Montserrat"; */
 }
 
-#title{
-  background-image: url("D:/prg/HTML/TinDog-Start-master/TinDog-Start-master/hero-bg.jpg");
+#title {
+  background-image: url("https://media.discordapp.net/attachments/825429867130257488/972205203250102363/hero-bg.jpg?width=1007&height=671");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
   box-shadow: inset 2000px 0 0 0 rgba(0, 255, 0, 0.5);
   border-color: rgba(0, 255, 0, 1);
 }
-.navbar-brand{
+.navbar-brand {
   position: relative;
-  top:10px;
+  top: 10px;
   left: 0px;
   font-size: 2.5rem;
   font-weight: bold;
 }
-.navbar-toggler
-{
+.navbar-toggler {
   position: absolute;
-  right:30px;
+  right: 30px;
   /* padding: 3% ; */
 }
-.container-fluid
-{
+.container-fluid {
   padding: 3% 15%;
 }
-.navbar
-{
+.navbar {
   padding-left: 0;
   padding-right: 0;
   padding-bottom: 6.5;
-
 }
-.nav-link
-{
+.nav-link {
   font-size: 1.2rem;
   font-family: "Merriweather";
   opacity: 0.8;
@@ -70,8 +63,7 @@ body
     padding-bottom: 4.5rem;
   }
 } */
-.nav-item
-{
+.nav-item {
   position: relative;
   bottom: 3rem;
   padding: 0 18px;
@@ -79,22 +71,20 @@ body
 
 /* navbar media query */
 @media only screen and (max-width: 991px) {
-  .navbar-brand{
+  .navbar-brand {
     position: relative;
     bottom: 35px;
     /* display: none; */
   }
-  .navbar-toggler
-  {
+  .navbar-toggler {
     position: absolute;
-    right:0 0 4.5rem;
+    right: 0 0 4.5rem;
     /* padding: 3% ; */
-    top: .5rem;
+    top: 0.5rem;
   }
-  .nav-link
-  {
+  .nav-link {
     position: relative;
-    top:5.7rem;
+    top: 5.7rem;
   }
   /* #title img
   {
@@ -107,9 +97,7 @@ body
 }
 /* navbar media query */
 
-
-#title button
-{
+#title button {
   margin: 5% 3% 5% 0;
 }
 /* #title img
@@ -127,32 +115,29 @@ body
     margin-left: 200px;
 
   } */
-  #press img
-{
-  display: block;
-  padding: 4.5rem;
-  width:50%;
-}
-#press svg
-{
-  display: block;
-  padding: 4.5rem;
-  width:50%;
-}
+  #press img {
+    display: block;
+    padding: 4.5rem;
+    width: 50%;
+  }
+  #press svg {
+    display: block;
+    padding: 4.5rem;
+    width: 50%;
+  }
   h1 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 3.5rem;
-  line-height: ;
-  font-weight: 900;
-  color:rgb(37, 29, 58);
-  color: ;
-  margin-top: 50px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 3.5rem;
+    line-height: ;
+    font-weight: 900;
+    color: rgb(37, 29, 58);
+    color: ;
+    margin-top: 50px;
   }
 }
 
-#features
-{
-  background-image: url("D:/prg/HTML/TinDog-Start-master/TinDog-Start-master/download.jpg");
+#features {
+  background-image: url("https://media.discordapp.net/attachments/825429867130257488/972205403591016468/download.jpg?width=1084&height=671");
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: inset 2000px 0 0 0 rgba(0, 0, 0, 0.7);
@@ -160,134 +145,112 @@ body
   text-align: center;
   padding: 10.5rem;
 }
-#features i
-{
-  color: rgb(16,165,100);
+#features i {
+  color: rgb(16, 165, 100);
   margin-bottom: 1rem;
 }
-#features h3
-{
+#features h3 {
   font-size: 1.7rem;
   font-weight: bold;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: white;
 }
-#features p
-{
+#features p {
   color: #8f8f8f;
 }
-#features i:hover
-{
+#features i:hover {
   color: #ff4c68;
   /* padding: 2.5rem; */
 }
-#testimonials
-{
-
-  background-image: url("D:/prg/HTML/TinDog-Start-master/TinDog-Start-master/c-bg.jpg");
+#testimonials {
+  background-image: url("https://media.discordapp.net/attachments/825429867130257488/972205549892558878/c-bg.jpg?");
   box-shadow: inset 2000px 0 0 0 rgba(0, 255, 0, 0.5);
   border-color: rgba(0, 255, 0, 1);
 }
-#testimonials h2
-{
+#testimonials h2 {
   text-align: center;
   color: white;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 3.5rem;
 }
-#testimonials img
-{
+#testimonials img {
   margin-left: auto;
   margin-right: auto;
   /* border-radius:100%; */
   display: block;
-  width: 20%;height: 20%;
+  width: 20%;
+  height: 20%;
 }
-#testimonials em
-{
+#testimonials em {
   margin-left: auto;
   margin-right: auto;
   color: white;
 }
-#press{
+#press {
   /* box-shadow: inset 2000px 0 0 0 rgba(0, 255, 0, 0.5);
   border-color: rgba(0, 255, 0, 1); */
   text-align: center;
 }
-#press h3
-{
-position: relative;
-top:1rem;
+#press h3 {
+  position: relative;
+  top: 1rem;
 }
-#press img
-{
+#press img {
   display: inline;
   padding: 4.5rem;
-  width:20%;
+  width: 20%;
 }
-#press svg
-{
+#press svg {
   display: inline;
   padding: 4.5rem;
-  width:20%;
+  width: 20%;
 }
-.carousel-item
-{
-    padding: 7% 15%;
+.carousel-item {
+  padding: 7% 15%;
 }
-#pricing
-{
+#pricing {
   padding: 100px;
 }
-#pricing h2
-{
-  font-family: 'Montserrat', sans-serif;
+#pricing h2 {
+  font-family: "Montserrat", sans-serif;
   font-size: 3.5rem;
 }
-.pc
-{
+.pc {
   padding: 3% 2%;
   display: inline;
   background-color: ;
 }
-#pricing h3
-{
-  font-family: 'Montserrat', sans-serif;
+#pricing h3 {
+  font-family: "Montserrat", sans-serif;
   font-size: 2rem;
 }
-#cta
-{
-  background-image: url("D:/prg/HTML/TinDog-Start-master/TinDog-Start-master/cta.jpg");
+#cta {
+  background-image: url("https://media.discordapp.net/attachments/825429867130257488/972205947164450816/cta.jpg?https://ibb.co/zJZcvKf");
   text-align: center;
   box-shadow: inset 2000px 0 0 0 rgba(0, 255, 0, 0.5);
   border-color: rgba(0, 255, 0, 1);
 }
-#cta h3
-{
-  font-family: 'Montserrat', sans-serif;
+#cta h3 {
+  font-family: "Montserrat", sans-serif;
   font-size: 4rem;
   padding: 5% 20%;
   padding-bottom: 0%;
   color: white;
-  line-height: 5rem
+  line-height: 5rem;
 }
-#footer
-{
+#footer {
   text-align: center;
   padding: 2% 0 1% 0;
 
   background-color: white;
 }
-#footer p
-{
+#footer p {
   color: grey;
 }
-#footer i
-{
+#footer i {
   letter-spacing: 10px;
 }
-.logo
-{
+.logo {
   width: 5rem;
   transform: rotate(0deg);
   border-radius: 100%;
@@ -301,11 +264,11 @@ top:1rem;
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0, 0, 0, 0.5);
   z-index: 2;
   cursor: pointer;
-} */
- .container p {
+}
+*/ .container p {
   font-size: 3rem;
   padding: 0.5rem;
   font-weight: bold;
@@ -328,21 +291,29 @@ top:1rem;
   animation: none;
 }
 @keyframes blink {
-  0%  { background-color: #ccc; }
-  49% { background-color: #ccc; }
-  50% { background-color: transparent; }
-  99% { background-color: transparent; }
-  100%  { background-color: #ccc; }
+  0% {
+    background-color: #ccc;
+  }
+  49% {
+    background-color: #ccc;
+  }
+  50% {
+    background-color: transparent;
+  }
+  99% {
+    background-color: transparent;
+  }
+  100% {
+    background-color: #ccc;
+  }
 }
-#heading
-{
+#heading {
   position: relative;
   top: 10vh;
 }
-#pricing
-{
-  background-image: url("D:prg/HTML/TinDog-Start-master/TinDog-Start-master/cp.jpg");
-  background-size:cover ;
+#pricing {
+  background-image: url("https://media.discordapp.net/attachments/825429867130257488/972206414430871582/cp.jpg?width=1007&height=671");
+  background-size: cover;
   box-shadow: inset 2000px 0 0 0 rgba(0, 0, 0, 0.7);
   border-color: rgba(0, 0, 0, 1);
 }
